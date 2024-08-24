@@ -13,5 +13,5 @@ Projeto para criptografar e descriptografar textos
 
 ## 🛠️ Abrir e rodar o projeto
 
-Link:(https://decodificador-de-texto-eight-tau.vercel.app/)
+Link: https://decodificador-de-texto-eight-tau.vercel.app/
 
