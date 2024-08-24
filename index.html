@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./imagens/Frame 6.png" alt="logo-alura">
+    </header>
+    <main  class="conteudoPrincipal">
+        <section class="conteudo-principal__escrever">
+            <textarea type="text" name="decodificar" id="inputText" placeholder="Digite o seu texto..."></textarea>
+            <div class="aviso">
+                <img src="./imagens/exclamacao.png" alt="aviso">
+                <p>Letras minusculas e sem acentos</p>
+            </div>
+            <div class="botoes">
+                <button id="criptografar" onclick="criptografar()">Criptografar</button>
+                <button id="descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+
+            <p id="errorMessage" class="error"></p>
+        </section> 
+        
+        <section class="segunda__tela">
+            <div class="segunda__tela__mostrar-texto">
+                <div id="outputText">
+                    <img src="./imagens/M2.jpeg" class="img2" alt="Imagem de uma fada">
+                    <textarea class="mostrar-texto" id="outputTextarea" placeholder="Não foi possível encontrar um texto, digite um texto para criptografar ou descriptografar!" readonly></textarea>
+                </div>
+                <div>
+                    <button onclick="copiar()" class="btn_copiar" id="copiar">Copiar</button>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="rodape">
+        <P>&#169; Desenvolvido por Yuri Santana - 2024</P>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
